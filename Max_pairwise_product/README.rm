@@ -1,0 +1,14 @@
+Given an array of non-negative integers
+
+Find the maximum product between 2 numbers from that array
+
+First approach:
+  Iterate i through the array starting from the arr[0]. After the loop ends, move to i+1
+  Second loop iterate through the i+1 to the end of array.
+  Replace the maximum product with any bigger product found
+  
+  However, this approach is quite slow. Because the program has to do the product calculation through every i and j. 
+  For bigger number, the program will be slow and time load is very long.
+
+Second approach (Faster):
+  Iterate through the array to find the 2 most biggest numbers. Return the product of those 2 biggest numbers.
