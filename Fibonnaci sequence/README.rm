@@ -1,0 +1,11 @@
+Find the nth number of Fibonnacci sequence
+
+The simple method
+  Using recursive based on Fibonnacci 
+  F(n) = F(n-1) + F(n-2)
+  
+The faster method
+  Treat the sequence as a list of number
+  Calculate the arr most ended number and append based on the formula F(n) = F(n-1) + F(n-2)
+  However, we only care about the (n-1)th and (n-2)th to print the nth(required) number.
+  Therefore, there will be no repetition as the recursive method.
